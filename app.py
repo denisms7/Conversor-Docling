@@ -71,8 +71,8 @@ def converter_documentos(pasta_entrada: str, pasta_saida: str, formato: str = "m
 
 if __name__ == "__main__":
     converter_documentos(
-        pasta_entrada="Licitacao/entrada",
-        pasta_saida="Licitacao/saida",
+        pasta_entrada="Documentos/1_Entrada",
+        pasta_saida="Documentos/2_Saida",
         formato="markdown",  # ou "json" / "text"
-        pasta_convertidos="Licitacao/convertidos"
+        pasta_convertidos="Documentos/3_Convertidos"
     )
