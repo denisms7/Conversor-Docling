@@ -14,6 +14,7 @@ def converter_documentos(pasta_entrada: str, pasta_saida: str, formato: str = "m
         pasta_convertidos: Caminho da pasta para onde o arquivo original será copiado após conversão
     """
     entrada = Path(pasta_entrada)
+    entrada.mkdir(parents=True, exist_ok=True)
     saida = Path(pasta_saida)
     saida.mkdir(parents=True, exist_ok=True)
 
